@@ -1,0 +1,46 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+#loginBox{
+    margin-left: 35%;
+    margin-top: 100px;
+    width: 30%;
+    height: 300px;
+    border: 1px solid gray;
+    
+}
+#loginBox h1{
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+
+
+#loginBox #formStyle{
+    width: 94%;
+    height: 200px;
+    border: 1px solid gray;
+    margin-left: 3%;
+    margin-top: 10px;
+
+}
+
+#loginBox #formStyle #inputStyle{
+    float: left;
+    margin: 10px;
+    width: 94%;
+    height: 25px;
+}
+#loginBox #formStyle #submitStyle{
+    float: left;
+    margin: 10px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(141, 114, 44);
+    border-radius: 10px;
+    border: none;
+
+}

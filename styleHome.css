@@ -1,0 +1,580 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+#homepage{
+    width: 100%;
+    height: 1000px;
+    margin: 0px;
+    color: white;
+}
+
+#homepage #menuBar{
+    margin: 0px;
+    width: 39%;
+    float: right;
+    height: 637px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.95;
+}
+
+#homepage #menuBar #menu{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 85%;
+    height: 40px;
+    float: left;
+    margin-left: 10%;
+}
+
+#homepage #menuBar #menu ul{
+    width: 96%;
+    height: 20px;
+    list-style: none;
+    
+}
+
+#homepage #menuBar #menu ul li{
+    background-color: rgba(46, 35, 85, 0.349);
+    text-transform: uppercase;
+    font-size: 12px;
+    /* background-color: rgba(29, 9, 104, 0.349); */
+    width: 90px;
+    margin-left: 20px;
+    height: 22px;
+    border-radius: 5px;
+    padding-top: 5px;
+    float: left;
+    /* border: 1px solid gray; */
+    text-align: center; 
+    color: rgb(255, 255, 255);
+}
+#homepage #menuBar #menu ul li ul{
+    /* margin-top: 10px; */
+    float: left;
+    margin-top: 10px;
+    height: 125px;
+    z-index: 10;
+    position: relative;
+    background-color: white;
+    display: none;
+}
+
+#homepage #menuBar #menu ul li:hover ul{
+    display: inline;
+}
+
+#homepage #menuBar #menu ul li ul li{
+    margin-top: 2px;
+    margin-left:  -25px;
+    border: none;
+    background-color: transparent;
+    color: black;
+    border-bottom: 1px solid gray;
+}
+
+#homepage #menuBar #menu ul li ul li a{
+    color: black;
+    text-decoration: none;
+}
+#homepage #menuBar #menu ul li ul li:hover a{
+    color: tomato;
+}
+
+#homepage #menuBar #imageLef{
+    width: 96%;
+    float: left;
+    margin: 10px;
+    height: 350px;
+}
+#homepage #menuBar #imageLef #description{
+    width: 90%;
+    float: left;
+    margin-left: 30px;
+}
+
+#homepage #menuBar #imageLef #description h1{
+   font-size: 14px;
+   font-weight: normal;
+   color: rgb(139, 20, 20);
+   opacity: 0.9;
+}
+#homepage #menuBar #imageLef #description p{
+    font-size: 13px;
+    font-weight: normal;
+    color: rgb(153, 144, 144);
+    line-height: 15px;
+    /* opacity: 0.6; */
+ }
+#homepage #content{
+    width: 61%;
+    margin: 0px;
+    height: 637px;
+    background-color: rgba(0, 0, 0, 0.959);
+}
+
+#homepage #content h1{
+    margin-top: 0px;
+    padding: 20px;
+    font-size: 30px;
+    margin-left: 0px;
+    padding-bottom: 5px;
+    color: rgb(167, 26, 1);
+    opacity: 0.9;
+}
+
+#homepage #content #cover{
+    margin-left: 20px;
+    width: 60%;
+    height: 300px;
+    background-color: rgba(24, 23, 23, 0.219);
+    box-shadow:50px 1px 40px 100px rgb(0, 0, 0);
+}
+#homepage #content #cover img{
+    width:100%;
+    height:100%;
+    opacity: 0.4;   
+}
+#homepage #content #slide{
+    width: 35%;
+    float: left;
+    height: 150px;
+    margin-top: 20px;
+}
+#homepage #content #slide div{
+    width: 60px;
+    margin: 14px;
+    float: left;
+    height: 150px;
+}
+
+#homepage #content #slide div img{
+    width: 60px;
+    border-radius: 60px;
+    margin-bottom: 20px;
+    float: left;
+    border: 1px solid rgb(71, 70, 70);
+    height: 60px;
+    opacity: 0.5;
+}
+
+#homepage #content #slide button{
+    width: 30px;
+    margin: 15px;
+    float: left;
+    border: 4px solid gray;
+    background-color: transparent;
+    height: 30px;
+    border-radius: 30px;
+    color: tomato;
+}
+
+
+#homepage #content #about{
+    width: 60%;
+    float: right;
+    height: 200px;
+    margin-right: 20px;
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+    opacity: 0.4;
+}
+
+#homepage #content #about p{
+    font-size: 14px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: normal;
+ }
+
+ #logBody{
+     background-color: tomato;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+/* Form */
+#loginBox{
+    width: 25%;
+    height: 400px;
+    background-color: white;
+    border: 1px solid gray;
+    margin-top: 120px;
+    margin-left: 37%;
+}
+#loginBox h1{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+#loginBox #formStyle{
+    width: 90%;
+    height: 95%;
+    float: left;
+    margin-left: 4%;
+    
+}
+
+#loginBox #formStyle input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-top: 25px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+#profile{
+    width: 19.5%;
+    height: 800px;
+    float: left;
+    border-right: 1px solid rgb(241, 239, 239);
+}
+#profile div{
+    width: 94%;
+    margin:5px;
+    height: 150px;
+    /* border: 1px solid gray; */
+    float: left;
+    margin-bottom: 20px;
+}
+#profile div img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    /* border: 1px solid gray; */
+    float: left;
+    margin: 10px;
+    margin-left: 60%;
+}
+
+#profile div p{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+}
+ 
+
+
+
+/* SponsorPage */
+#sponsor{
+    width: 80%;
+    height: 637px;
+    float: left;
+    /* margin-left: 5%; */
+    background-color: rgba(255, 255, 255, 0.979);
+    opacity: 0.8;
+    
+}
+
+#sponsor #opera{
+    width: 50%;
+    height:  550px;
+    float: left;
+    /* border: 1px solid gray; */
+    margin:20px;
+    margin-top: 50px;
+}
+#sponsor #opera h1{
+    font-size: 18px;
+}
+#sponsor #opera #search{
+   width: 96%;
+   height: 60px;
+   margin: 10px;
+   /* border: 1px solid gray; */
+   float: left;
+}
+#sponsor #opera #search button{
+    width: 100px;
+    height: 25px;
+    float: left;
+    margin: 5px;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 7px;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+
+
+#sponsor #opera #result{
+    width: 96%;
+    height: 420px;
+    float: left;
+    margin: 10px;
+    /* border: 1px solid gray; */
+}
+
+#sponsor #opera #result #resultData{
+    width: 98%;
+    height: 200px;
+    float: left;
+    margin: 5px;
+    border: 1px solid rgb(228, 226, 226);
+    overflow: auto;
+}
+
+#sponsor #opera #result #resultChart{
+    width: 98%;
+    height: 200px;
+    float: left;
+    margin: 5px;
+    /* border: 1px solid gray; */
+}
+#sponsor #opera #result #resultChart h1{
+   font-size: 14px;
+   margin: 5px;
+   margin-bottom: 0px;
+}
+
+#sponsor #opera #result #resultChart #apexchart{
+    width: 320px;
+    float: left;
+}
+
+
+
+
+
+
+#sponsor #report{
+    width: 42%;
+    height:  600px;
+    float: left;
+    margin:20px;
+}
+
+#sponsor #report h1{
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+#sponsor #report #attendence{
+    width: 94%;
+    height:  150px;
+    overflow: auto;
+    float: left;
+    /* border: 1px solid gray; */
+    margin:10px;
+}
+
+/* #sponsor #report #attendence table{
+    width: 96%;
+    margin:5px;
+} */
+
+#sponsor #result #resultData table tr td, #sponsor #result #resultData table tr th{
+   font-size:12px;
+   padding-left: 10px;
+   padding-right: 10px;
+   border-top:1px solid rgb(144, 247, 238);
+   border-right:1px solid rgb(80, 248, 212);
+}
+
+
+#sponsor #report #attendence h1{
+    /* text-transform: uppercase; */
+    font-size: 14px;
+    margin-left: 0px;
+    
+}
+#sponsor #report #attendence ul{
+    line-height: 15px;
+    list-style: none;
+    font-size: 12px;
+}
+
+
+#sponsor #report #attendence ul li img{
+    margin-left: 5px;
+    height: 20px;
+    width: 25px;
+    float: left;
+}
+#sponsor #report #attendence ul li p{
+   font-size: 12px;
+}
+
+#allHere{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    width: 58%;
+    color: black;
+    /* height: 330px; */
+    float: left;
+    margin: 30px;
+    margin-left: 5%;
+}
+#toutIci{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    width: 98%;
+    color: black;
+    /* height: 330px; */
+    float: left;
+    margin-top: 30px;
+    margin-left: 1%;
+}
+#toutIci #processContent{
+    width: 100%;
+    float: left;
+    
+}
+#toutIci #processContent #contentIn{
+    width: 45%;
+    float: left;
+    margin: 20px;
+    background-color: rgb(250, 248, 248);
+   
+}
+#toutIci #processContent #contentIn h1{
+    font-size: 14px;
+    font-weight: normal;
+    margin: 10px;
+    text-transform: uppercase;
+}
+#toutIci #processContent #contentIn p{
+    font-size: 12px;
+    font-weight: normal;
+    margin: 10px;
+    line-height: 22px;
+    color: rgb(99, 99, 99);
+}
+#toutIci #processContent #contentIn ul li{
+    font-size: 12px;
+    font-weight: normal;
+    margin: 10px;
+    line-height: 22px;
+    color: rgb(99, 99, 99);
+}
+
+#toutIci #processContent #contentIn img{
+    width: 100%;
+    height: 200px;
+    /* margin: 20px; */
+}
+
+
+
+#allHere #contentDiv{
+    width: 98%;
+    float: left;
+    margin: 20px;
+}
+#allHere #contentDiv #users{
+    width: 30%;
+    float: left;
+    margin: 10px;
+}
+#allHere #contentDiv #users h2{
+    border-bottom: 1px solid rgb(224, 220, 220);
+    font-size: 14px;
+    font-weight: normal;
+    margin: 10px;
+    text-transform: uppercase;
+}
+#allHere #contentDiv #users img{
+   width: 100px;
+   height: 100px;
+   border-radius: 100px;
+   margin: 5px;
+   margin-left: 100px;
+  
+}
+#allHere #contentDiv #users p{
+   font-size: 12px;
+   margin: 10px;
+}
+#allHere #contentDiv #line{
+    /* margin-top: 20px; */
+    margin-left: 40px;
+    margin-right: -7px;
+    width: 1px;
+    background-color: rgb(221, 221, 221);
+    height: 230px;
+    float: left;
+}
+#allHere #contentDiv #grantedAcess{
+    width: 90%;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#allHere #contentDiv h1{
+    font-size: 15px;
+    line-height: 25px;
+    color: rgb(146, 0, 0);
+    font-weight: normal;
+    text-transform: uppercase;
+}
+#allHere #contentDiv p{
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: normal;
+    color: rgba(97, 97, 97, 0.877);
+    
+}
+
+#couvercle{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    color: black;
+    /* height: 500px; */
+    float: left;
+    margin: 20px;
+    margin-left: 40px;
+}
+
+#couvercle h1{
+    font-size: 15px;
+    /* margin: 20px; */
+    line-height: 25px;
+    color: rgb(71, 71, 71);
+}
+#couvercle p{
+    font-size:13px;
+     color: rgb(71, 71, 71);
+      line-height:23px;
+       opacity:0.8;
+}
+footer{
+    width: 100%;
+    height: 250px;
+    border-top: 1px solid gray;
+    float: left;
+    background-color: black;
+}
+footer div{
+    width: 15%;
+    height: 150px;
+    /* border: 1px solid gray; */
+    float: left;
+    margin: 20px;
+}
+footer div h1{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.726);
+    margin: 5px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+footer div ul li{
+    width: 90%;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.61);
+    list-style: none;
+    margin: 5px;
+    display: inline-block;
+    border-bottom: 1px solid rgb(34, 33, 33);
+}
